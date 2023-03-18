@@ -1,0 +1,92 @@
+﻿/*Meu Primeiro Arquivo CSS*/
+
+/*TAGs*/
+
+p{
+	color: white;
+	font-size: 15px;
+	font-family: arial;
+	text-shadow: 1px 1px 1px #111111; /*SOMBREADO NO TEXO*/
+}
+
+body{
+	background-color: #000000;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica, arial;
+}
+
+header{
+	background-color: #35b8b0;
+	height: 80px;
+	padding: 20px;
+}
+
+footer{
+	clear: both;
+	background-color: #35b8b0;
+	height: 30px;
+	text-align: center;
+	padding: 10px;
+	font-size: 12px;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+h1{
+	color: #FF7F50;
+	text-shadow: 1px 1px 1px #111111; /*SOMBREADO NO TEXTO*/
+	text-align: center; /*ALINHAMENTO DO TEXTO*/
+	margin: 0 0 50px 0;
+}
+
+/*IDs*/
+
+#principal{
+	background-image: url('tecnologia.jpg'); /*IMAGEM DE FUNDO DA PÁGINA*/
+	clear: both;
+	background-size: 100%; /*TAMANHO DA IMAGEM DE FUNDO*/
+	min-height: 400px;
+	padding: 80px 0 0 0;
+}
+
+#logo{
+	float: left;
+}
+
+#menu{
+	margin-top: 30px;
+	float: right;
+}
+
+#menu a{/*CONFIGURAR UMA TAG ESPECÍFICA DENTRO DE DETERMINADA DIV COM ID DECLARADO*/
+	padding: 52px 20px;
+	text-decoration: none; /*REMOVER SUBLINHADO DO TEXTO*/
+	color: #111111;
+	text-shadow: 1px 1px 1px #111111;
+}
+
+/*#menu a:hover{*/ /*PROPRIEDADE DE SOBREPOSIÇÃO APLICADA À TAG a */
+	/*background-color: #111111;
+	color: #35b8b0;*
+}*/
+
+#menu a:hover{ /*PROPRIEDADE DE SOBREPOSIÇÃO APLICADA À TAG a */
+	background-color: #5F9EA0;
+	color: #111111;
+}
+
+
+/*CLASS*/
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+}
+
+.efeito{
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 80px 0 80px 0;
+}
